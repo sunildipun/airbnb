@@ -3,7 +3,7 @@ import React from 'react';
 import './custom-button.style.scss';
 
 const CustomButtons = ({text}) => (
-        <button class="button">{text}</button>
+        <button className="button">{text}</button>
 )
 
 
