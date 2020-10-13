@@ -3,12 +3,12 @@ import './home.style.scss';
 
 import Banner from './../../components/banner/banner.component';
 import Card from './../../components/card/card.component';
+import Footer from './../../components/footer/footer.component';
 
 const Home = () => {
     return (
         <div className='home'>
             <Banner />
-
             <div className='home__section'>
             <Card
                 src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
@@ -46,6 +46,8 @@ const Home = () => {
                 price="£70/night"
             />
             </div>
+        
+            <Footer />
         </div>
     )
 }
