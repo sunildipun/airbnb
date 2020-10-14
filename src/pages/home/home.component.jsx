@@ -3,7 +3,6 @@ import './home.style.scss';
 
 import Banner from './../../components/banner/banner.component';
 import Card from './../../components/card/card.component';
-import Footer from './../../components/footer/footer.component';
 
 const Home = () => {
     return (
@@ -47,7 +46,6 @@ const Home = () => {
             />
             </div>
         
-            <Footer />
         </div>
     )
 }
